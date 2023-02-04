@@ -3,7 +3,7 @@
 ## Clone This Repo
 
 ```
-$ git clone https://github.com/mazufik/Simple-Calcolatur-With-Deno-and-SolidJS.git
+$ git clone https://github.com/mazufik/Simple-Calculator-With-Deno-and-SolidJS.git
 ```
 
 ## Running
