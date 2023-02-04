@@ -1,0 +1,80 @@
+.App {
+  font-family: 'Roboto', Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.calculator {
+  margin: 5px;
+  box-shadow: 0 0 30px #000;
+  border-radius: 12px;
+}
+.display {
+  outline: none;
+  border: none;
+  width: 310px;
+  height: 100px;
+  font-size: 2.5rem;
+  font-weight: 300;
+  padding: 2px 15px;
+  text-align: right;
+  color: black;
+  background: #f0f8ff;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.keypad {
+  background-color: #eaedef;
+  height: 325px;
+  text-align: center;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.digit-keys {
+  background-color: #c3eaff;
+  color: #000000;
+}
+
+.fun-keys {
+  background-color: #adf9e7;
+  color: #000;
+}
+
+.operator-keys {
+  background-color: #ffd0fb;
+  color: #f967f3;
+}
+
+.digit-keys:hover {
+  background-color: #b0e0e6;
+}
+
+.fun-keys:hover {
+  background-color: #20b2aa;
+}
+
+.operator-keys:hover {
+  background-color: #ffc0cb;
+}
